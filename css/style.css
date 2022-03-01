@@ -145,6 +145,20 @@ body {
   opacity: 1;
 }
 
+.active {
+  position: relative;
+}
+
+.active::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  border-bottom: 4px solid #a993ff;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+}
+
 .buy-btn {
   display: flex;
   flex-direction: row;
